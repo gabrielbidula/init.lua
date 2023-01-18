@@ -47,6 +47,8 @@ return require("packer").startup(function(use)
 
 	use("xiyaowong/nvim-transparent")
 
+	use("nvim-tree/nvim-web-devicons")
+
 	use({
 		"nvim-lualine/lualine.nvim",
 		requires = { "kyazdani42/nvim-web-devicons", opt = true },
@@ -69,5 +71,13 @@ return require("packer").startup(function(use)
 		requires = "nvim-treesitter/nvim-treesitter",
 		-- Uncomment next line if you want to follow only stable versions
 		-- tag = "*"
+	})
+
+	use({
+		"nvim-tree/nvim-tree.lua",
+		requires = {
+			"nvim-tree/nvim-web-devicons", -- optional, for file icons
+		},
+		tag = "nightly", -- optional, updated every week. (see issue #1193)
 	})
 end)
