@@ -160,11 +160,6 @@ _G.packer_plugins = {
     path = "/Users/gabriel/.local/share/nvim/site/pack/packer/start/nvim-transparent",
     url = "https://github.com/xiyaowong/nvim-transparent"
   },
-  ["nvim-tree.lua"] = {
-    loaded = true,
-    path = "/Users/gabriel/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
-    url = "https://github.com/nvim-tree/nvim-tree.lua"
-  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/Users/gabriel/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
