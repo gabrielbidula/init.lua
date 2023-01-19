@@ -72,4 +72,6 @@ return require("packer").startup(function(use)
 		-- Uncomment next line if you want to follow only stable versions
 		-- tag = "*"
 	})
+
+	use("windwp/nvim-autopairs")
 end)
