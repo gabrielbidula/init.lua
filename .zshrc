@@ -99,4 +99,16 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
+
+alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
+alias pint="./vendor/bin/pint"
+alias pest="./vendor/bin/pest"
+
+alias pstorm ="/usr/local/bin/pstorm"
+
+export PATH="/usr/local/opt/php@8.0/bin:$PATH"
+export PATH="/usr/local/opt/php@8.0/sbin:$PATH"
+export PATH=$HOME/bin:/usr/local/bin:/Users/gabriel/.composer/vendor/bin:$PATH
+
+export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
